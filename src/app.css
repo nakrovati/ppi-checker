@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .border-default {
+    @apply border-[1px] border-zinc-300;
+  }
+}

@@ -1,0 +1,9 @@
+# Dependencies
+node_modules/
+
+# Build
+build/
+.svelte-kit/
+
+# Ide
+.vscode/*
