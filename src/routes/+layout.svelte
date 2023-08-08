@@ -1,8 +1,12 @@
 <script>
+  import { dev } from "$app/environment";
   import Footer from "$lib/components/layout/Footer.svelte";
   import Header from "$lib/components/layout/Header.svelte";
+  import { inject } from "@vercel/analytics";
 
   import "../app.css";
+
+  inject({ mode: dev ? "development" : "production" });
 </script>
 
 <div class="flex flex-col min-h-screen gap-4">
