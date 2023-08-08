@@ -19,7 +19,7 @@
   "license": "ISC",
   "devDependencies": {
     "@eslint/js": "^8.46.0",
-    "@sveltejs/adapter-auto": "^2.1.0",
+    "@sveltejs/adapter-vercel": "^3.0.3",
     "@sveltejs/kit": "^1.22.4",
     "@trpc/client": "^10.37.1",
     "@trpc/server": "^10.37.1",
