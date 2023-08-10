@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Apple MacBook Air 13 2020",
+    "diagonal": 13.3,
+    "resolution": {
+      "width": 2880,
+      "height": 1600
+    }
+  },
+  {
+    "name": "Apple MacBook Air 13 2022",
+    "diagonal": 13.6,
+    "resolution": {
+      "width": 2560,
+      "height": 1664
+    }
+  },
+  {
+    "name": "Apple MacBook Air 15 2023",
+    "diagonal": 15.3,
+    "resolution": {
+      "width": 2880,
+      "height": 1864
+    }
+  },
+  {
+    "name": "Apple MacBook Pro 14 2023",
+    "diagonal": 14.2,
+    "resolution": {
+      "width": 3024,
+      "height": 1964
+    }
+  },
+  {
+    "name": "Apple MacBook Pro 16 2023",
+    "diagonal": 16.2,
+    "resolution": {
+      "width": 3456,
+      "height": 2234
+    }
+  },
+  {
+    "name": "Apple iMac 24 2021",
+    "diagonal": 24,
+    "resolution": {
+      "width": 4480,
+      "height": 2520
+    }
+  },
+  {
+    "name": "Apple Studio Display 27 2022",
+    "diagonal": 27,
+    "resolution": {
+      "width": 5120,
+      "height": 2880
+    }
+  },
+  {
+    "name": "Apple Pro Display XDR 32 2019",
+    "diagonal": 32,
+    "resolution": {
+      "width": 6016,
+      "height": 3384
+    }
+  }
+]

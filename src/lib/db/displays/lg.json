@@ -1,0 +1,42 @@
+[
+  {
+    "name": "LG UltraGear 49GR85DC-B",
+    "diagonal": 49,
+    "resolution": {
+      "width": 5129,
+      "height": 1440
+    }
+  },
+  {
+    "name": "LG 49WL95C-WY",
+    "diagonal": 49,
+    "resolution": {
+      "width": 5120,
+      "height": 1440
+    }
+  },
+  {
+    "name": "LG 34WQ75C-B",
+    "diagonal": 34,
+    "resolution": {
+      "width": 3440,
+      "height": 1440
+    }
+  },
+  {
+    "name": "LG 34WQ60C-B",
+    "diagonal": 34,
+    "resolution": {
+      "width": 3440,
+      "height": 1440
+    }
+  },
+  {
+    "name": "LG 32UQ750-W",
+    "diagonal": 32,
+    "resolution": {
+      "width": 3840,
+      "height": 2160
+    }
+  }
+]

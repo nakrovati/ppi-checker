@@ -1,6 +1,10 @@
 import type { DisplaysList } from "$lib/types/models";
 
-import displays from "$lib/db/displays.json";
+import appleDisplays from "$lib/db/displays/apple.json";
+import lgDisplays from "$lib/db/displays/lg.json";
+import samsungDisplays from "$lib/db/displays/samsung.json";
+
+const displays = [...appleDisplays, ...samsungDisplays, ...lgDisplays];
 
 class Database {
   displays: DisplaysList;

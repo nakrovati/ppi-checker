@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Samsung 49 S49CG954SN",
+    "diagonal": 49,
+    "resolution": {
+      "width": 5120,
+      "height": 1440
+    }
+  },
+  {
+    "name": "Samsung 55 S55BG970NN",
+    "diagonal": 55,
+    "resolution": {
+      "width": 3840,
+      "height": 2160
+    }
+  },
+  {
+    "name": "Samsung 27 S27CG512EN",
+    "diagonal": 27,
+    "resolution": {
+      "width": 2560,
+      "height": 1440
+    }
+  },
+  {
+    "name": "Samsung 43 S43CG702NN",
+    "diagonal": 43,
+    "resolution": {
+      "width": 3840,
+      "height": 2160
+    }
+  },
+  {
+    "name": "Samsung 32 S32CM80BUN",
+    "diagonal": 32,
+    "resolution": {
+      "width": 3840,
+      "height": 2160
+    }
+  },
+  {
+    "name": "Samsung 32 S32CM703UN",
+    "diagonal": 32,
+    "resolution": {
+      "width": 3840,
+      "height": 2160
+    }
+  },
+  {
+    "name": "Samsung 32 S32CM502EN",
+    "diagonal": 32,
+    "resolution": {
+      "width": 1920,
+      "height": 1080
+    }
+  }
+]
