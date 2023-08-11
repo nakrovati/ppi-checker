@@ -1,10 +1,12 @@
 import type { DisplaysList } from "$lib/types/models";
 
-import appleDisplays from "$lib/db/displays/apple.json";
-import lgDisplays from "$lib/db/displays/lg.json";
-import samsungDisplays from "$lib/db/displays/samsung.json";
+import alienware from "$lib/db/displays/alienware.json";
+import apple from "$lib/db/displays/apple.json";
+import dell from "$lib/db/displays/dell.json";
+import lg from "$lib/db/displays/lg.json";
+import samsung from "$lib/db/displays/samsung.json";
 
-const displays = [...appleDisplays, ...samsungDisplays, ...lgDisplays];
+const displays = [...alienware, ...apple, ...dell, ...samsung, ...lg];
 
 class Database {
   displays: DisplaysList;

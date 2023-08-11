@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Dell UltraSharp 38 U3824DW",
+    "diagonal": 38,
+    "resolution": {
+      "width": 3840,
+      "height": 1600
+    }
+  },
+  {
+    "name": "Dell UltraSharp 27 U2723QE",
+    "diagonal": 27,
+    "resolution": {
+      "width": 3840,
+      "height": 2160
+    }
+  },
+  {
+    "name": "Dell UltraSharp 24 U2422H",
+    "diagonal": 24,
+    "resolution": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  {
+    "name": "Dell UltraSharp 32 U3223QE",
+    "diagonal": 32,
+    "resolution": {
+      "width": 3840,
+      "height": 2160
+    }
+  },
+  {
+    "name": "Dell UltraSharp 43 U4323QE",
+    "diagonal": 43,
+    "resolution": {
+      "width": 3840,
+      "height": 2160
+    }
+  },
+  {
+    "name": "Dell UltraSharp 34 U3423WE",
+    "diagonal": 34,
+    "resolution": {
+      "width": 3440,
+      "height": 1440
+    }
+  },
+  {
+    "name": "Dell UltraSharp 40 U4021QW",
+    "diagonal": 40,
+    "resolution": {
+      "width": 5120,
+      "height": 2160
+    }
+  },
+  {
+    "name": "Dell UltraSharp 32 U3223QZ",
+    "diagonal": 32,
+    "resolution": {
+      "width": 3840,
+      "height": 2160
+    }
+  },
+  {
+    "name": "Dell UltraSharp 49 U4924DW",
+    "diagonal": 49,
+    "resolution": {
+      "width": 5120,
+      "height": 1440
+    }
+  },
+  {
+    "name": "Dell 27 Gaming Monitor G2724D",
+    "diagonal": 27,
+    "resolution": {
+      "width": 2560,
+      "height": 1440
+    }
+  },
+  {
+    "name": "Dell 32 Gaming Monitor S3222DGM",
+    "diagonal": 31.5,
+    "resolution": {
+      "width": 2560,
+      "height": 1440
+    }
+  },
+  {
+    "name": "Dell 34 Gaming Monitor S3422DWG",
+    "diagonal": 34,
+    "resolution": {
+      "width": 3440,
+      "height": 1440
+    }
+  },
+  {
+    "name": "Dell 25 Gaming Monitor G2524H",
+    "diagonal": 25,
+    "resolution": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  {
+    "name": "Dell 24 S2421HS",
+    "diagonal": 32,
+    "resolution": {
+      "width": 3840,
+      "height": 2160
+    }
+  }
+]

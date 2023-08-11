@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Alienware 27 AW2724HF",
+    "diagonal": 27,
+    "resolution": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  {
+    "name": "Alienware 27 AW2724DM",
+    "diagonal": 27,
+    "resolution": {
+      "width": 2560,
+      "height": 1440
+    }
+  },
+  {
+    "name": "Alienware 38 AW3821DW",
+    "diagonal": 37.52,
+    "resolution": {
+      "width": 3840,
+      "height": 1600
+    }
+  },
+  {
+    "name": "Alienware 34 AW3423DW",
+    "diagonal": 34.18,
+    "resolution": {
+      "width": 3440,
+      "height": 1440
+    }
+  }
+]

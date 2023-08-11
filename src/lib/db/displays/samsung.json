@@ -54,5 +54,85 @@
       "width": 1920,
       "height": 1080
     }
+  },
+  {
+    "name": "Samsung 27 S27CM502EN",
+    "diagonal": 27,
+    "resolution": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  {
+    "name": "Samsung 27 S27CM502EN",
+    "diagonal": 27,
+    "resolution": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  {
+    "name": "Samsung 43 M70B S43BM702UN",
+    "diagonal": 43,
+    "resolution": {
+      "width": 3840,
+      "height": 2160
+    }
+  },
+  {
+    "name": "Samsung 32 M70A S32AM702UN",
+    "diagonal": 32,
+    "resolution": {
+      "width": 3840,
+      "height": 2160
+    }
+  },
+  {
+    "name": "Samsung 34 ViewFinity S50GC S34C502GAN",
+    "diagonal": 34,
+    "resolution": {
+      "width": 3440,
+      "height": 1440
+    }
+  },
+  {
+    "name": "Samsung 34 ViewFinity S65UA S34A650UBN",
+    "diagonal": 34,
+    "resolution": {
+      "width": 3440,
+      "height": 1440
+    }
+  },
+  {
+    "name": "Samsung 27 Viewfinity S80TB S27B804TGN",
+    "diagonal": 27,
+    "resolution": {
+      "width": 3840,
+      "height": 2160
+    }
+  },
+  {
+    "name": "Samsung 27 ViewFinity S70A S27A700NWN",
+    "diagonal": 27,
+    "resolution": {
+      "width": 3840,
+      "height": 2160
+    }
+  },
+  {
+    "name": "Samsung 27 ViewFinity S61B S27B610EQN",
+    "diagonal": 27,
+    "resolution": {
+      "width": 3840,
+      "height": 2160
+    }
+  },
+  {
+    "name": "Samsung 27 Viewfinity S80TB S27B804TGN",
+    "diagonal": 27,
+    "resolution": {
+      "width": 3840,
+      "height": 2160
+    }
   }
 ]
