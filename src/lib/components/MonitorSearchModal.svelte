@@ -22,32 +22,37 @@
 
 <!-- svelte-ignore a11y-click-events-have-key-events a11y-no-noninteractive-element-interactions -->
 <dialog
-  class="bg-transparent max-w-[calc(32rem+2rem)] w-full px-2 mt-32 rounded open:animate-zoom open:backdrop:animate-fade backdrop:bg-opacity-30 backdrop:bg-black"
+  class="w-full mt-24 rounded open:animate-zoom bg-transparent open:backdrop:animate-fade backdrop:bg-opacity-30 backdrop:bg-black"
   bind:this={dialog}
   on:close={() => (showModal = false)}
   on:click|self={() => dialog.close()}
 >
   <!-- svelte-ignore a11y-no-static-element-interactions -->
-  <div on:click|stopPropagation class="w-full bg-white rounded relative">
-    <!-- svelte-ignore a11y-autofocus -->
-    <input
-      autofocus
-      placeholder="Enter the monitor or device model"
-      type="text"
-      bind:value={inputValue}
-      on:input={searchDisplays}
-      class="w-full peer focus:bg-zinc-500 focus:outline-none rounded-t transition-colors focus:text-white py-1 h-12 pl-2 pr-14"
-    />
+  <div
+    on:click|stopPropagation
+    class="flex flex-col h-full max-h-[75dvh] w-full bg-white rounded relative max-w-lg mx-auto"
+  >
+    <div>
+      <!-- svelte-ignore a11y-autofocus -->
+      <input
+        autofocus
+        placeholder="Enter the monitor or device model"
+        type="text"
+        bind:value={inputValue}
+        on:input={searchDisplays}
+        class="w-full peer focus:bg-zinc-500 focus:outline-none rounded-t transition-colors focus:text-white py-1 h-12 pl-2 pr-14"
+      />
 
-    <button
-      class="w-12 rounded-tr peer-focus:text-white focus:bg-zinc-500 focus:outline-none focus:text-white h-12 flex items-center justify-center absolute top-0 right-0 transition-colors"
-      on:click={() => dialog.close()}
-      type="button"
-      aria-label="Close the modal"><PhXBold></PhXBold></button
-    >
+      <button
+        class="w-12 peer-focus:text-white focus:bg-zinc-500 focus:outline-none focus:text-white h-12 flex items-center justify-center absolute top-0 right-0 transition-colors"
+        on:click={() => dialog.close()}
+        type="button"
+        aria-label="Close the modal"><PhXBold></PhXBold></button
+      >
+    </div>
 
     {#if displays.length}
-      <ul>
+      <ul class="max-h-full overflow-y-scroll bg-white rounded">
         {#each displays as display}
           <MonitorSearchModalItem {display} highlightText={inputValue}
           ></MonitorSearchModalItem>

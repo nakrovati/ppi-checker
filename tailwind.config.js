@@ -18,6 +18,9 @@ export default {
           "100%": { transform: "scale(1)" },
         },
       },
+      screens: {
+        xs: "512px",
+      },
     },
   },
 };
