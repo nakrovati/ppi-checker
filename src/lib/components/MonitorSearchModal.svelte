@@ -22,7 +22,7 @@
 
 <!-- svelte-ignore a11y-click-events-have-key-events a11y-no-noninteractive-element-interactions -->
 <dialog
-  class="w-full mt-24 rounded open:animate-zoom bg-transparent open:backdrop:animate-fade backdrop:bg-opacity-30 backdrop:bg-black"
+  class="mt-24 w-full rounded bg-transparent backdrop:bg-black backdrop:bg-opacity-30 open:animate-zoom open:backdrop:animate-fade"
   bind:this={dialog}
   on:close={() => (showModal = false)}
   on:click|self={() => dialog.close()}
@@ -30,7 +30,7 @@
   <!-- svelte-ignore a11y-no-static-element-interactions -->
   <div
     on:click|stopPropagation
-    class="flex flex-col h-full max-h-[75dvh] w-full bg-white rounded relative max-w-lg mx-auto"
+    class="relative mx-auto flex h-full max-h-[75dvh] w-full max-w-lg flex-col rounded bg-white"
   >
     <div>
       <!-- svelte-ignore a11y-autofocus -->
@@ -40,11 +40,11 @@
         type="text"
         bind:value={inputValue}
         on:input={searchDisplays}
-        class="w-full peer focus:bg-zinc-500 focus:outline-none rounded-t transition-colors focus:text-white py-1 h-12 pl-2 pr-14"
+        class="peer h-12 w-full rounded-t py-1 pl-2 pr-14 transition-colors focus:bg-zinc-500 focus:text-white focus:outline-none"
       />
 
       <button
-        class="w-12 peer-focus:text-white focus:bg-zinc-500 focus:outline-none focus:text-white h-12 flex items-center justify-center absolute top-0 right-0 transition-colors"
+        class="absolute right-0 top-0 flex h-12 w-12 items-center justify-center transition-colors focus:bg-zinc-500 focus:text-white focus:outline-none peer-focus:text-white"
         on:click={() => dialog.close()}
         type="button"
         aria-label="Close the modal"><PhXBold></PhXBold></button
@@ -52,7 +52,7 @@
     </div>
 
     {#if displays.length}
-      <ul class="max-h-full overflow-y-scroll bg-white rounded">
+      <ul class="max-h-full overflow-y-scroll rounded bg-white">
         {#each displays as display}
           <MonitorSearchModalItem {display} highlightText={inputValue}
           ></MonitorSearchModalItem>

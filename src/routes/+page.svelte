@@ -10,5 +10,5 @@
   />
 </svelte:head>
 
-<h1 class="text-4xl font-extrabold mb-4">DPI / PPI Calculator</h1>
+<h1 class="mb-4 text-4xl font-extrabold">DPI / PPI Calculator</h1>
 <PPICalculator />

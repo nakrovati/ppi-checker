@@ -7,7 +7,7 @@
 
 <header class="border-b-[1px] border-zinc-300 bg-white">
   <div
-    class="py-4 px-2 max-w-screen-xl mx-auto flex items-center justify-between"
+    class="mx-auto flex max-w-screen-xl items-center justify-between px-2 py-4"
   >
     <a href="/">Home</a>
     <button
@@ -15,7 +15,7 @@
       type="button"
       aria-label="Search display"
     >
-      <PhMagnifyingGlassBold class="w-5 h-auto"></PhMagnifyingGlassBold>
+      <PhMagnifyingGlassBold class="h-auto w-5"></PhMagnifyingGlassBold>
     </button>
   </div>
 </header>
