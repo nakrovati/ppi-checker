@@ -1,10 +1,17 @@
 # Dependencies
-node_modules/
+node_modules
 
 # Build
-build/
-.svelte-kit/
+build
+.svelte-kit
 
-# Ide
-.vscode/*
+# Tools
+vite.config.js.timestamp-*
 .vercel
+
+# IDE
+.vscode/*
+.idea/
+
+# System files
+.DS_Store
