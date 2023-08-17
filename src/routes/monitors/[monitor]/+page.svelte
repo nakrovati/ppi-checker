@@ -1,4 +1,5 @@
 <script lang="ts">
+  import OsCompatibilityTable from "$lib/components/OSCompatibilityTable.svelte";
   import { calculatePPI } from "$lib/utils";
 
   import type { PageServerData } from "./$types";
@@ -17,12 +18,17 @@
   <meta name="description" content={`${data.name} display options`} />
 </svelte:head>
 
-<div class="max-w-screen-md mx-auto">
-  <h1 class="font-extrabold text-4xl">{data.name}</h1>
-  <div class="rounded border-default p-2 mt-4">
-    <div>{data.resolution.width}x{data.resolution.height}</div>
-    <div class="text-lg font-bold">
-      PPI: <span class="text-red-700">{ppi}</span>
+<div class="mx-auto max-w-screen-md">
+  <h1 class="text-4xl font-extrabold">{data.name}</h1>
+  <div
+    class="border-default mt-4 grid gap-2 rounded p-2 xs:grid-cols-2 xs:gap-4"
+  >
+    <div>
+      <div>{data.resolution.width}x{data.resolution.height}</div>
+      <div class="text-lg font-bold">
+        PPI: <span class="text-red-700">{ppi}</span>
+      </div>
     </div>
+    <OsCompatibilityTable bind:data></OsCompatibilityTable>
   </div>
 </div>
