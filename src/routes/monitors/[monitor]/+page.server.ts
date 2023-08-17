@@ -1,7 +1,7 @@
 import { db } from "$lib/db";
 import { error } from "@sveltejs/kit";
 
-import type { PageServerLoad } from "../$types";
+import type { PageServerLoad } from "./$types";
 
 export const load = (({ params }) => {
   const searchedMonitor = params.monitor.replaceAll("-", " ");
