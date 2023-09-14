@@ -6,8 +6,8 @@
 
 <input
   bind:value
-  {placeholder}
+  class="border-default rounded px-2 py-1"
   {id}
-  class="border-default rounded py-1 px-2"
+  {placeholder}
   type="number"
 />

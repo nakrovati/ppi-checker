@@ -14,8 +14,8 @@
 
 <li>
   <a
-    class="px-2 py-1 block focus:bg-zinc-500 focus:outline-none focus:text-white transition-colors"
+    class="block px-2 py-1 transition-colors focus:bg-zinc-500 focus:text-white focus:outline-none"
     {href}
-    ><HightlightText text={display.name} {highlightText}></HightlightText></a
+    ><HightlightText {highlightText} text={display.name}></HightlightText></a
   >
 </li>

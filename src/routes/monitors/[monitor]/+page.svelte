@@ -15,7 +15,7 @@
 
 <svelte:head>
   <title>{data.name} | PPI Calculator</title>
-  <meta name="description" content={`${data.name} display options`} />
+  <meta content={`${data.name} display options`} name="description" />
 </svelte:head>
 
 <div class="mx-auto max-w-screen-md">

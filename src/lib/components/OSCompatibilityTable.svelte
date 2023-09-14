@@ -25,15 +25,15 @@
 
 <div class="grid grid-cols-3 gap-x-4">
   <OsCompatibilityTableItem
-    osName="MacOS"
     compatibilityStatus={isCompatibleWithMacOS}
+    osName="MacOS"
   ></OsCompatibilityTableItem>
   <OsCompatibilityTableItem
-    osName="Linux"
     compatibilityStatus={isCompatibleWithLinux}
+    osName="Linux"
   ></OsCompatibilityTableItem>
   <OsCompatibilityTableItem
-    osName="Windows"
     compatibilityStatus={isCompatibleWithWindows}
+    osName="Windows"
   ></OsCompatibilityTableItem>
 </div>

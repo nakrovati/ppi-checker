@@ -22,32 +22,32 @@
 
 <!-- svelte-ignore a11y-click-events-have-key-events a11y-no-noninteractive-element-interactions -->
 <dialog
-  class="mt-24 w-full rounded bg-transparent backdrop:bg-black backdrop:bg-opacity-30 open:animate-zoom open:backdrop:animate-fade"
   bind:this={dialog}
-  on:close={() => (showModal = false)}
+  class="mt-24 w-full rounded bg-transparent backdrop:bg-black backdrop:bg-opacity-30 open:animate-zoom open:backdrop:animate-fade"
   on:click|self={() => dialog.close()}
+  on:close={() => (showModal = false)}
 >
   <!-- svelte-ignore a11y-no-static-element-interactions -->
   <div
-    on:click|stopPropagation
     class="relative mx-auto flex h-full max-h-[75dvh] w-full max-w-lg flex-col rounded bg-white"
+    on:click|stopPropagation
   >
     <div>
       <!-- svelte-ignore a11y-autofocus -->
       <input
         autofocus
+        bind:value={inputValue}
+        class="peer h-12 w-full rounded-t py-1 pl-2 pr-14 transition-colors focus:bg-zinc-500 focus:text-white focus:outline-none"
+        on:input={searchDisplays}
         placeholder="Enter the monitor or device model"
         type="text"
-        bind:value={inputValue}
-        on:input={searchDisplays}
-        class="peer h-12 w-full rounded-t py-1 pl-2 pr-14 transition-colors focus:bg-zinc-500 focus:text-white focus:outline-none"
       />
 
       <button
+        aria-label="Close the modal"
         class="absolute right-0 top-0 flex h-12 w-12 items-center justify-center transition-colors focus:bg-zinc-500 focus:text-white focus:outline-none peer-focus:text-white"
         on:click={() => dialog.close()}
-        type="button"
-        aria-label="Close the modal"><PhXBold></PhXBold></button
+        type="button"><PhXBold></PhXBold></button
       >
     </div>
 

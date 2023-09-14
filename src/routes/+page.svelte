@@ -5,8 +5,8 @@
 <svelte:head>
   <title>PPI calculator</title>
   <meta
-    name="description"
     content="PPI Calculator: Easily determine pixel density of your device screen. Input screen size and resolution to get PPI in a snap. Fast & user-friendly!"
+    name="description"
   />
 </svelte:head>
 

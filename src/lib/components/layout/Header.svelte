@@ -11,9 +11,9 @@
   >
     <a href="/">Home</a>
     <button
+      aria-label="Search display"
       on:click={() => (showModal = true)}
       type="button"
-      aria-label="Search display"
     >
       <PhMagnifyingGlassBold class="h-auto w-5"></PhMagnifyingGlassBold>
     </button>
