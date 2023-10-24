@@ -29,7 +29,7 @@
 >
   <!-- svelte-ignore a11y-no-static-element-interactions -->
   <div
-    class="relative mx-auto flex h-fit max-h-[75dvh] w-full max-w-lg flex-col rounded bg-white"
+    class="relative mx-auto flex max-h-[75dvh] w-full max-w-lg flex-col rounded bg-white"
     on:click|stopPropagation
   >
     <div>

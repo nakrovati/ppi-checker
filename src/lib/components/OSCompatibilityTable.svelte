@@ -8,7 +8,7 @@
     isDisplayCompatibleWithWindows,
   } from "$lib/utils";
 
-  import OsCompatibilityTableItem from "./OSCompatibilityTableItem.svelte";
+  import OsCompatibilityTableItem from "./OsCompatibilityTableItem.svelte";
 
   export let data: Display;
 

@@ -23,21 +23,21 @@
 </script>
 
 <form
-  class="flex flex-col gap-2 bg-white border-default rounded-md p-4 relative"
+  class="border-default relative flex flex-col gap-2 rounded-md bg-white p-4"
 >
-  <div class="grid sm:grid-cols-3 items-center">
+  <div class="grid items-center sm:grid-cols-3">
     <label for="horizontal-resolution">Horizontal resolution:</label>
     <Input bind:value={horizontalResolution} id="horizontal-resolution" />
     <span class="sm:pl-2">Pixels</span>
   </div>
 
-  <div class="grid sm:grid-cols-3 items-center mt-1">
+  <div class="mt-1 grid items-center sm:grid-cols-3">
     <label for="vertical-resolution">Vertical resolution:</label>
     <Input bind:value={verticalResolution} id="vertical-resolution"></Input>
     <span class="sm:pl-2">Pixels</span>
   </div>
 
-  <div class="grid sm:grid-cols-3 items-center mt-1">
+  <div class="mt-1 grid items-center sm:grid-cols-3">
     <label for="diagonal">Diagonal:</label>
     <Input bind:value={diagonal} id="diagonal" />
     <span class="sm:pl-2">Inches ({diagonalInCM}cm)</span>

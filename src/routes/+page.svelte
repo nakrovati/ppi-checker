@@ -1,5 +1,5 @@
 <script lang="ts">
-  import PPICalculator from "$lib/components/PPICalculator.svelte";
+  import PpiCalculator from "$lib/components/PpiCalculator.svelte";
 </script>
 
 <svelte:head>
@@ -11,4 +11,4 @@
 </svelte:head>
 
 <h1 class="mb-4 text-4xl font-extrabold">DPI / PPI Calculator</h1>
-<PPICalculator />
+<PpiCalculator />
