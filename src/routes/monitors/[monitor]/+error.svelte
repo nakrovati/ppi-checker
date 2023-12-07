@@ -2,11 +2,11 @@
   import { page } from "$app/stores";
 </script>
 
-<div class="mt-6 flex flex-col gap-4 items-center">
+<div class="mt-6 flex flex-col items-center gap-4">
   <h1 class="text-5xl font-bold">{$page.status}</h1>
   <p>{$page.error?.message}</p>
   <a
-    class="bg-black py-2 px-4 text-white rounded hover:bg-gray-800 transition-colors"
+    class="rounded bg-black px-4 py-2 text-white transition-colors hover:bg-gray-800"
     href="/">Go to home</a
   >
 </div>
