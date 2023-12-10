@@ -16,7 +16,7 @@
   const searchDisplays = debounce(async () => {
     displays = !inputValue.trim()
       ? []
-      : await trpc().findMonitors.query(inputValue);
+      : await trpc().monitors.search.query(inputValue);
   }, 300);
 </script>
 
