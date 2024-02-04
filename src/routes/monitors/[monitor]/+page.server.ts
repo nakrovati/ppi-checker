@@ -12,5 +12,5 @@ export const load = (({ params }) => {
     return foundMonitor;
   }
 
-  throw error(404, { message: `Monitor ${searchedMonitor} not found` });
+  error(404, { message: `Monitor ${searchedMonitor} not found` });
 }) satisfies PageServerLoad;
