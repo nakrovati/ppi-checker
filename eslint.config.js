@@ -8,8 +8,16 @@ import globals from "globals";
 import svelteParser from "svelte-eslint-parser";
 
 export default [
+  js.configs.recommended,
   {
-    ignores: ["./.svelte-kit/**", "./build/**"],
+    ignores: [
+      "**/.DS_Store/*",
+      "**/node_modules/*",
+      "build/*",
+      ".svelte-kit/*",
+    ],
+  },
+  {
     languageOptions: {
       globals: {
         ...globals.browser,
@@ -20,7 +28,6 @@ export default [
       perfectionist,
     },
     rules: {
-      ...js.configs.recommended.rules,
       ...perfectionist.configs["recommended-natural"].rules,
     },
   },

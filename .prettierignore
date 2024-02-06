@@ -1,7 +1,2 @@
 # Dependencies
 node_modules
-pnpm-lock.yaml
-
-# Build
-build/
-.svelte-kit/
