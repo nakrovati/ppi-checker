@@ -1,9 +1,5 @@
 const gcd = (a: number, b: number): number => {
-  if (b === 0) {
-    return a;
-  } else {
-    return gcd(b, a % b);
-  }
+  return b === 0 ? a : gcd(b, a % b);
 };
 
 export function calculateAspectRatio(width: number, height: number) {

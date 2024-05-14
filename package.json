@@ -29,6 +29,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-perfectionist": "^2.10.0",
     "eslint-plugin-svelte": "^2.39.0",
+    "eslint-plugin-unicorn": "^53.0.0",
     "globals": "^15.2.0",
     "husky": "^9.0.11",
     "just-debounce-it": "^3.2.0",

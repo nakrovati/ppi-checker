@@ -13,7 +13,7 @@
 
   $: ppi = calculatePPI({ diagonal, horizontalResolution, verticalResolution });
 
-  $: diagonalInCM = !diagonal ? 0 : round(diagonal * INCHES_TO_CM_RATIO);
+  $: diagonalInCM = diagonal ? round(diagonal * INCHES_TO_CM_RATIO) : 0;
 
   onMount(() => {
     horizontalResolution = window.screen.width * window.devicePixelRatio;

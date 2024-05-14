@@ -15,9 +15,9 @@
   $: if (dialog && showModal) dialog.showModal();
 
   const searchDisplays = debounce(async () => {
-    displays = !inputValue.trim()
-      ? []
-      : await trpc().monitors.search.query(inputValue);
+    displays = inputValue.trim()
+      ? await trpc().monitors.search.query(inputValue)
+      : [];
   }, 300);
 </script>
 

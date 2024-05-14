@@ -1,3 +1,3 @@
 export { calculateAspectRatio } from "./calculateAspectRatio";
-export { calculatePPI } from "./calculatePPI";
+export { calculatePpi as calculatePPI } from "./calculatePpi";
 export { round } from "./round";

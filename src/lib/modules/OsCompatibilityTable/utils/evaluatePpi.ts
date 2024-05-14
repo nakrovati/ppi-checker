@@ -1,6 +1,6 @@
 type PpiStatuses = "bad" | "good" | "maybe";
 
-export function evaluatePPI(ppi: number): PpiStatuses {
+export function evaluatePpi(ppi: number): PpiStatuses {
   const basePPI = 110;
   const tolerance = 10;
 

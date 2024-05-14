@@ -1,1 +1,1 @@
-export { evaluatePPI } from "./evaluatePPI";
+export { evaluatePpi as evaluatePPI } from "./evaluatePpi";
