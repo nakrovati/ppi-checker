@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Check, X } from "$lib/shared/assets/icons";
+  import { Check, X } from "$icons";
 
   export let osName: string;
   export let compatibilityStatus: boolean;

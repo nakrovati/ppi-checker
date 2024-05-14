@@ -1,6 +1,6 @@
 <script lang="ts">
+  import { MagnifyingGlass } from "$icons";
   import { MonitorSearchModal } from "$lib/modules/MonitorSearchModal";
-  import { MagnifyingGlass } from "$lib/shared/assets/icons";
 
   let showModal = false;
 </script>

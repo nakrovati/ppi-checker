@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { Display } from "$lib/shared/services/db";
 
-  import { X } from "$lib/shared/assets/icons";
+  import { X } from "$icons";
   import { trpc } from "$lib/shared/services/trpc/client";
   import debounce from "just-debounce-it";
 

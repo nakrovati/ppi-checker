@@ -5,6 +5,9 @@ import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
 export default {
   kit: {
     adapter: adapter(),
+    alias: {
+      $icons: "src/lib/shared/assets/icons",
+    },
   },
   preprocess: vitePreprocess(),
 };
