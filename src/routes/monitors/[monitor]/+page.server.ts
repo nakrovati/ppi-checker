@@ -3,14 +3,13 @@ import { error } from "@sveltejs/kit";
 
 import type { PageServerLoad } from "./$types";
 
-export const load = (({ params }) => {
+export const load: PageServerLoad = ({ params }) => {
   const searchedMonitor = params.monitor.replaceAll("-", " ");
 
   const foundMonitor = db.getDisplay(searchedMonitor);
 
-  if (foundMonitor) {
-    return foundMonitor;
-  }
+  if (!foundMonitor)
+    error(404, { message: `Monitor ${searchedMonitor} not found` });
 
-  error(404, { message: `Monitor ${searchedMonitor} not found` });
-}) satisfies PageServerLoad;
+  return foundMonitor;
+};
