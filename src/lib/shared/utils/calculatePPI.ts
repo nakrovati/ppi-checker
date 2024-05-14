@@ -8,8 +8,7 @@ export function calculatePPI({
   diagonal,
   horizontalResolution,
   verticalResolution,
-}: CalculatePPIOptions) {
-  return +(
-    Math.sqrt(verticalResolution ** 2 + horizontalResolution ** 2) / diagonal
-  ).toFixed(2);
+}: CalculatePPIOptions): number {
+  const ppi = Math.hypot(verticalResolution, horizontalResolution) / diagonal;
+  return +ppi.toFixed(2);
 }

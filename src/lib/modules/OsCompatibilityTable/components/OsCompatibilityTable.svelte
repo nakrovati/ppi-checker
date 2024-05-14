@@ -1,13 +1,13 @@
 <script lang="ts">
   import type { Display } from "$lib/shared/services/db";
 
+  import { calculatePPI } from "$lib/shared/utils";
+
   import {
-    calculatePPI,
     isDisplayCompatibleWithLinux,
     isDisplayCompatibleWithMacOS,
     isDisplayCompatibleWithWindows,
-  } from "$lib/shared/utils";
-
+  } from "../helpers/compatibilityChecker";
   import OsCompatibilityTableItem from "./OsCompatibilityTableItem.svelte";
 
   export let data: Display;
