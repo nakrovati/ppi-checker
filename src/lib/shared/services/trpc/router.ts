@@ -1,5 +1,5 @@
-import { monitorsRouter } from "$lib/trpc/routes/monitors";
-import { t } from "$lib/trpc/t";
+import { monitorsRouter } from "./routes/monitors";
+import { t } from "./t";
 
 export const router = t.router({
   monitors: monitorsRouter,

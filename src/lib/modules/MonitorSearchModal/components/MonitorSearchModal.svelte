@@ -1,14 +1,15 @@
 <script lang="ts">
-  import type { DisplaysList } from "$lib/types/models";
+  import type { Display } from "$lib/shared/services/db";
 
-  import MonitorSearchModalItem from "$lib/components/MonitorSearchModalItem.svelte";
-  import PhXBold from "$lib/icons/PhXBold.svelte";
-  import { trpc } from "$lib/trpc/client";
+  import { X } from "$lib/shared/assets/icons";
+  import { trpc } from "$lib/shared/services/trpc/client";
   import debounce from "just-debounce-it";
+
+  import MonitorSearchModalItem from "./MonitorSearchModalItem.svelte";
 
   export let showModal: boolean;
   let dialog: HTMLDialogElement;
-  let displays: DisplaysList = [];
+  let displays: Display[] = [];
   let inputValue: string = "";
 
   $: if (dialog && showModal) dialog.showModal();
@@ -47,7 +48,7 @@
         aria-label="Close the modal"
         class="absolute right-0 top-0 flex h-12 w-12 items-center justify-center transition-colors focus:bg-zinc-500 focus:text-white focus:outline-none peer-focus:text-white"
         on:click={() => dialog.close()}
-        type="button"><PhXBold></PhXBold></button
+        type="button"><X></X></button
       >
     </div>
 

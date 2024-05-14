@@ -1,4 +1,4 @@
-import { db } from "$lib/db";
+import { db } from "$lib/shared/services/db";
 import { error } from "@sveltejs/kit";
 
 import type { PageServerLoad } from "./$types";

@@ -1,4 +1,4 @@
-import type { Context } from "$lib/trpc/context";
+import type { Context } from "$lib/shared/services/trpc/context";
 
 import { initTRPC } from "@trpc/server";
 

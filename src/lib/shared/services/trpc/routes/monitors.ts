@@ -1,5 +1,5 @@
-import { db } from "$lib/db";
-import { t } from "$lib/trpc/t";
+import { db } from "$lib/shared/services/db";
+import { t } from "$lib/shared/services/trpc/t";
 import { parse, string } from "valibot";
 
 export const monitorsRouter = t.router({

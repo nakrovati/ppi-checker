@@ -1,4 +1,4 @@
-import type { Display } from "$lib/types/models";
+import type { Display } from "$lib/shared/services/db";
 
 import { evaluatePPI } from "./evaluatePPI";
 

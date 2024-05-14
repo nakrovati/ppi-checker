@@ -1,6 +1,6 @@
 <script lang="ts">
   import Input from "$lib/components/ui/Input.svelte";
-  import { calculatePPI, round } from "$lib/utils";
+  import { calculatePPI, round } from "$lib/shared/utils";
   import { onMount } from "svelte";
 
   let horizontalResolution: number;

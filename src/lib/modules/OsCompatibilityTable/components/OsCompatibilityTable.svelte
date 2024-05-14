@@ -1,12 +1,12 @@
 <script lang="ts">
-  import type { Display } from "$lib/types/models";
+  import type { Display } from "$lib/shared/services/db";
 
   import {
     calculatePPI,
     isDisplayCompatibleWithLinux,
     isDisplayCompatibleWithMacOS,
     isDisplayCompatibleWithWindows,
-  } from "$lib/utils";
+  } from "$lib/shared/utils";
 
   import OsCompatibilityTableItem from "./OsCompatibilityTableItem.svelte";
 

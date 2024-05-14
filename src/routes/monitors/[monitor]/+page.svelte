@@ -1,6 +1,6 @@
 <script lang="ts">
-  import OsCompatibilityTable from "$lib/components/OsCompatibilityTable.svelte";
-  import { calculatePPI } from "$lib/utils";
+  import { OsCompatibilityTable } from "$lib/modules/OsCompatibilityTable";
+  import { calculatePPI } from "$lib/shared/utils";
 
   import type { PageServerData } from "./$types";
 

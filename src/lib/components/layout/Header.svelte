@@ -1,6 +1,6 @@
 <script lang="ts">
-  import MonitorSearchModal from "$lib/components/MonitorSearchModal.svelte";
-  import PhMagnifyingGlassBold from "$lib/icons/PhMagnifyingGlassBold.svelte";
+  import { MonitorSearchModal } from "$lib/modules/MonitorSearchModal";
+  import { MagnifyingGlass } from "$lib/shared/assets/icons";
 
   let showModal = false;
 </script>
@@ -15,7 +15,7 @@
       on:click={() => (showModal = true)}
       type="button"
     >
-      <PhMagnifyingGlassBold class="h-auto w-5"></PhMagnifyingGlassBold>
+      <MagnifyingGlass class="h-auto w-5"></MagnifyingGlass>
     </button>
   </div>
 </header>

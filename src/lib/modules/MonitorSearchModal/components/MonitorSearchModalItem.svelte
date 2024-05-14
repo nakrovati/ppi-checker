@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { Display } from "$lib/types/models";
+  import type { Display } from "$lib/shared/services/db";
 
   import HightlightText from "$lib/components/HightlightText.svelte";
 
