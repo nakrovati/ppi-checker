@@ -1,5 +1,6 @@
 <script lang="ts">
   import { createDialog } from "@melt-ui/svelte";
+  import { fade, fly } from "svelte/transition";
 
   export let open = false;
 
@@ -18,11 +19,17 @@
 </script>
 
 {#if open}
-  <div class="" {...$portalled} use:portalled>
-    <div {...$overlay} class="fixed inset-0 z-50 bg-black/50" use:overlay />
+  <div {...$portalled} use:portalled>
+    <div
+      {...$overlay}
+      class="fixed inset-0 z-50 bg-black/50"
+      transition:fade={{ duration: 100 }}
+      use:overlay
+    />
     <div
       class="fixed left-1/2 top-1/2 z-50 max-h-[85vh] w-[90vw] max-w-[450px] -translate-x-1/2 -translate-y-1/2 rounded-md bg-white shadow-lg"
       {...$content}
+      transition:fly={{ duration: 100 }}
       use:content
     >
       <div
