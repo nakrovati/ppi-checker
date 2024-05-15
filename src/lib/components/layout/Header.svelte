@@ -2,7 +2,9 @@
   import { MagnifyingGlass } from "$icons";
   import { MonitorSearchModal } from "$lib/modules/MonitorSearchModal";
 
-  let showModal = false;
+  import Button from "../ui/Button.svelte";
+
+  let isDialogOpen = false;
 </script>
 
 <header class="border-b-[1px] border-zinc-300 bg-white">
@@ -10,14 +12,14 @@
     class="mx-auto flex max-w-screen-xl items-center justify-between px-2 py-4"
   >
     <a href="/">Home</a>
-    <button
+    <Button
       aria-label="Search display"
-      on:click={() => (showModal = true)}
+      on:click={() => (isDialogOpen = true)}
       type="button"
     >
-      <MagnifyingGlass class="h-auto w-5"></MagnifyingGlass>
-    </button>
+      <MagnifyingGlass class="size-5"></MagnifyingGlass>
+    </Button>
   </div>
 </header>
 
-<MonitorSearchModal bind:showModal></MonitorSearchModal>
+<MonitorSearchModal bind:isDialogOpen></MonitorSearchModal>

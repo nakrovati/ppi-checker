@@ -4,6 +4,6 @@
 
 @layer utilities {
   .border-default {
-    @apply border-[1px] border-zinc-300;
+    @apply border border-zinc-300;
   }
 }
